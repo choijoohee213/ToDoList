@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="styleSheet" href="/src/css/todoList.css">
+  <title>TodoList</title>
+</head>
+
+<body>
+  <main>
+    <script async src="/src/js/bgImage.js"></script>
+
+    <div class="js-date"></div>
+    <div class="js-time"></div>
+
+    <form class="js-form hide">
+      <input type="text" placeholder="이름을 입력하세요 🤗">
+    </form>
+
+    <div class="js-greeting hide">
+      <p class="greeting"></p>
+      <form class="js-todoForm">
+        <input type="text" placeholder="오늘 할 일을 입력하세요.">
+      </form>
+      <ul class="todoList">
+      </ul>
+    </div>
+
+    <span class="js-weather">
+    </span>
+  </main>
+
+  <script async src="/src/js/time.js"></script>
+  <script async src="/src/js/userName.js"></script>
+  <script async src="/src/js/weather.js"></script>
+  <script async src="/src/js/todo.js"></script>
+</body>
+
+</html>
