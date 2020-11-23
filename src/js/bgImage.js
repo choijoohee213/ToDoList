@@ -8,7 +8,7 @@ function init() {
 function setBgImage() {
   const randomIndex = Math.floor(Math.random() * 6 + 1)
   let image = new Image()
-  image.src = `/img/${randomIndex}.jpg`
+  image.src = `src/img/${randomIndex}.jpg`
   image.classList.add('bgImage')
   document.body.prepend(image)
 }

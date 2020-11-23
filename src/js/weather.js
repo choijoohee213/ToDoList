@@ -43,7 +43,7 @@ function handleGeoSucess(position) {
 }
 
 function handleGeoError(position) {
-  weather.innerHTML = '위치 정보가 없습니다'
+  weather.innerHTML = ''
 }
 
 //* 날씨 *//
