@@ -122,3 +122,46 @@ input[type="text"]:focus {
   font-weight: 600;
   color: rgb(255, 201, 100);
 }
+
+@media screen and (max-width: 700px) {
+  .js-date {
+    font-size: 22px;
+  }
+
+  .js-time {
+    font-size: 30px;
+  }
+
+  .greeting {
+    font-size: 13px;
+  }
+
+  .userNameText {
+    font-size: 14px;
+  }
+
+  input[type="text"] {
+    width: 45vw;
+    font-size: 13px;
+  }
+
+  input[type="text"]:focus {
+    width: 48vw;
+  }
+
+  .todoList {
+    padding-left: 0;
+    font-weight: 600;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .todoList button {
+    font-size: 11px;
+    padding: 2px;
+  }
+
+  .js-weather {
+    font-size: 20px;
+  }
+}
