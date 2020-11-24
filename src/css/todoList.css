@@ -120,7 +120,7 @@ input[type="text"]:focus {
   padding: 20px;
   font-size: 40px;
   font-weight: 600;
-  color: rgb(255, 201, 100);
+  color: rgb(250, 202, 114);
 }
 
 @media screen and (max-width: 700px) {
